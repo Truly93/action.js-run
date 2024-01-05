@@ -1,6 +1,7 @@
 name: Add PRs and issues to Octokit org project
 
-on:
+on:npm install @octokit/action
+      # Node.js script
   issues:
     types: [reopened, opened]
   pull_request_target:
