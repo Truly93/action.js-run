@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.5.0
         with:
-          project-url: https://github.com/orgs/octokit/projects/10
+          project-url:https://github.com/octokit/action.js/actions/runs/3716028291/job/10148199151 https://github.com/orgs/octokit/projects/10
           github-token: ${{ secrets.OCTOKITBOT_PROJECT_ACTION_TOKEN }}
           labeled: "Status: Stale"
           label-operator: NOT
