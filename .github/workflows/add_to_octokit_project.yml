@@ -1,6 +1,7 @@
 name: Add PRs and issues to Octokit org project
 
-on:
+on:npm install @octokit/action
+      # Node.js script
   issues:
     types: [reopened, opened]
   pull_request_target:
@@ -14,7 +15,7 @@ jobs:
     steps:
       - uses: actions/add-to-project@v0.5.0
         with:
-          project-url: https://github.com/orgs/octokit/projects/10
-          github-token: ${{ secrets.OCTOKITBOT_PROJECT_ACTION_TOKEN }}
-          labeled: "Status: Stale"
+          project-url:https://github.com/octokit/action.js/actions/runs/3716028291/job/10148199151 https://github.com/orgs/octokit/projects/10
+          github-token: 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${{ secrets.OCTOKITBOT_PROJECT_ACTION_TOKEN }}
+          labeled: "Status: true"
           label-operator: NOT
